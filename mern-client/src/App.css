@@ -1,0 +1,25 @@
+header, app{
+    z-index: 100001!important;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e1d9ee;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(196, 252, 252);
+    border-radius: 12px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(157, 150, 158, 0.911);
+    border-radius: 12px;
+  }
+  
